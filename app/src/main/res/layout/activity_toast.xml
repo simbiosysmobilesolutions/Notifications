@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/BLUE"
+    tools:context="com.simbiosyscorp.tutorials.notifications.ToastActivity">
+
+    <TextView
+        android:id="@+id/toastNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Toast Notification" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/button_text"
+        android:text="Toast"
+        android:id="@+id/toastBtn"
+        android:layout_below="@+id/toastNotification"
+        android:layout_marginTop="117dp"
+        android:layout_alignStart="@+id/customToastBtn"
+        android:layout_alignEnd="@+id/customToastBtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/button_text"
+        android:text="Custom Toast"
+        android:id="@+id/customToastBtn"
+        android:layout_below="@+id/toastBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp" />
+
+</RelativeLayout>

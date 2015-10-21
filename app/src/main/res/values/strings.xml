@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notifications</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_toast">ToastActivity</string>
+    <string name="title_activity_status_bar">StatusBarActivity</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_status_bar_target">StatusBarTarget</string>
+</resources>
